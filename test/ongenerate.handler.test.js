@@ -1,27 +1,28 @@
 const onGenerate = require('../app/handlers/ongenerate.handler');
 const assert = require('assert');
 
-let mockData = {
-	file: 'test.bundle.js',
-	bundle: {
-		modules: {
-			'/test/module1.js': {
-				originalLength: 100,
-				renderedLength: 50
-			},
-			'/test/module2.js': {
-				originalLength: 100,
-				renderedLength: 50
-			},
-			'/test/module3.js': {
-				originalLength: 100,
-				renderedLength: 50
+describe('onGenerate handler', () => {
+	let mockData = {
+		file: 'test.bundle.js',
+		bundle: {
+			modules: {
+				'/test/module1.js': {
+					originalLength: 100,
+					renderedLength: 50
+				},
+				'/test/module2.js': {
+					originalLength: 100,
+					renderedLength: 50
+				},
+				'/test/module3.js': {
+					originalLength: 100,
+					renderedLength: 50
+				}
 			}
 		}
-	}
-};
+	};
 
-describe('onGenerate handler', () => {
+
 	it('Should be a function', () => {
 		assert(typeof onGenerate === 'function');
 	});

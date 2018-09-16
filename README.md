@@ -1,6 +1,6 @@
 # rollup-plugin-reporter
 [![Maintainability](https://api.codeclimate.com/v1/badges/fda4c9e4b9f25f49b2b6/maintainability)](https://codeclimate.com/github/vovkabelov/rollup-plugin-reporter/maintainability)
-[![npm version](https://badge.fury.io/js/rollup-plugin-reporter.svg)](https://badge.fury.io/js/rollup-plugin-reporter) 
+[![npm version](https://badge.fury.io/js/rollup-plugin-reporter.svg)](https://badge.fury.io/js/rollup-plugin-reporter)  
 Custom reports for Rollup
 
 ## How it works 

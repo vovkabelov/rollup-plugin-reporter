@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-reporter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Awesome reports for Rollup",
   "main": "index.js",
   "scripts": {

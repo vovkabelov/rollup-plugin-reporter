@@ -4,7 +4,7 @@
   "description": "Awesome reports for Rollup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -12,8 +12,8 @@
   },
   "homepage": "https://github.com/vovkabelov/rollup-plugin-reporter#readme",
   "bugs": {
-    "url" : "https://github.com/vovkabelov/rollup-plugin-reporter/issues",
-    "email" : "i@vovkabelov.ru"
+    "url": "https://github.com/vovkabelov/rollup-plugin-reporter/issues",
+    "email": "i@vovkabelov.ru"
   },
   "keywords": [
     "rollup",
@@ -24,7 +24,9 @@
   ],
   "author": "Vladimir Belov i@vovkabelov.ru",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
   "dependencies": {
     "colors": "^1.3.2",
     "filesize": "^3.6.1"

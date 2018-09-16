@@ -1,11 +1,27 @@
 {
   "name": "rollup-plugin-reporter",
-  "version": "1.0.1",
-  "description": "Awesome reports for rollup ",
+  "version": "1.0.2",
+  "description": "Awesome reports for Rollup",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vovkabelov/rollup-plugin-reporter.git"
+  },
+  "homepage": "https://github.com/vovkabelov/rollup-plugin-reporter#readme",
+  "bugs": {
+    "url" : "https://github.com/vovkabelov/rollup-plugin-reporter/issues",
+    "email" : "i@vovkabelov.ru"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "rollup-plugin-reporter",
+    "report",
+    "reporter"
+  ],
   "author": "Vladimir Belov i@vovkabelov.ru",
   "license": "MIT",
   "devDependencies": {},

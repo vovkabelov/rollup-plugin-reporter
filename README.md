@@ -25,7 +25,7 @@ module.exports = {
 import reporter from 'rollup-plugin-reporter';
     
 const customReport = data => {
-    console.log('${data.bundle} [${data.size.rendered}]');
+    console.log(`${data.bundle} [${data.size.rendered}]`);
 }
 
 module.exports = {

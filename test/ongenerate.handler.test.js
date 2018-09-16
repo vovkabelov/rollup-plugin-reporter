@@ -65,5 +65,13 @@ describe('onGenerate handler', () => {
 
 			onGenerate({exclude: [], report: report})(mockData);
 		});
+
+		it('Should not called for included bundle', () => {
+			let report = () => {
+				assert(false);
+			};
+
+			onGenerate({exclude: ['test.bundle.js'], report: report})(mockData);
+		})
 	});
 });

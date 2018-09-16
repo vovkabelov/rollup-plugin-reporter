@@ -1,5 +1,6 @@
 # rollup-plugin-reporter
-[![Maintainability](https://api.codeclimate.com/v1/badges/fda4c9e4b9f25f49b2b6/maintainability)](https://codeclimate.com/github/vovkabelov/rollup-plugin-reporter/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fda4c9e4b9f25f49b2b6/maintainability)](https://codeclimate.com/github/vovkabelov/rollup-plugin-reporter/maintainability) 
+[![Coverage Status](https://coveralls.io/repos/github/vovkabelov/rollup-plugin-reporter/badge.svg?branch=master)](https://coveralls.io/github/vovkabelov/rollup-plugin-reporter?branch=master)
 [![npm version](https://badge.fury.io/js/rollup-plugin-reporter.svg)](https://badge.fury.io/js/rollup-plugin-reporter)  
 Custom reports for Rollup
 

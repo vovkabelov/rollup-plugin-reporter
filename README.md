@@ -65,3 +65,6 @@ module.exports = {
     report: Function 
 }
 ```
+
+## Copyright and license
+Code and documentation copyright 2018 Vladimir Belov. Code released under the [MIT license](https://github.com/vovkabelov/rollup-plugin-reporter/blob/master/LICENSE).

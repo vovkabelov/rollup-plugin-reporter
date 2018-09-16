@@ -8,30 +8,34 @@ Custom reports for Rollup
     yarn add rollup-plugin-reporter --dev
     
 ## Use with base report 
-    import reporter from 'rollup-plugin-reporter';
-    
-    module.exports = {
-        ...
-        plugins: [
-            reporter()
-        ]
-        ...
-    }
+```javascript
+import reporter from 'rollup-plugin-reporter';
+
+module.exports = {
+    ...
+    plugins: [
+        reporter()
+    ]
+    ...
+}
+```
     
 ## Custom report
-    import reporter from 'rollup-plugin-reporter';
+```javascript
+import reporter from 'rollup-plugin-reporter';
     
-    const customReport = data => {
-        console.log('${data.bundle} [${data.size.rendered}]');
-    }
-    
-    module.exports = {
-            ...
-            plugins: [
-                reporter({
-                    report: customReport
-                })
-            ]
-            ...
-        }
+const customReport = data => {
+    console.log('${data.bundle} [${data.size.rendered}]');
+}
+
+module.exports = {
+    ...
+    plugins: [
+        reporter({
+            report: customReport
+        })
+    ]
+    ...
+}
+```
     

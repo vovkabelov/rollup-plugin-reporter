@@ -4,7 +4,7 @@
 Custom reports for Rollup
 
 ## How it works 
-**1.** Install npm package via npm `npm i rollup-plugin-reporter` or via yarn `yarn add rollup-plugin-reporter`
+**1.** Install npm package via npm `npm i rollup-plugin-reporter` or via yarn `yarn add rollup-plugin-reporter`  
 **2.** Add plugin call into Rollup config, to plugins sections 
 ```javascript
 // rollup.config.js
@@ -58,10 +58,10 @@ module.exports = {
 ## Plugin options
 ```javascript
 {
-	// Excluded bundles from report 
-	exclude: Array<String>,
-	
-	// Custom report function
-	report: Function 
+    // Excluded bundles from report 
+    exclude: Array<String>,
+    
+    // Custom report function
+    report: Function 
 }
 ```

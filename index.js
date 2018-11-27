@@ -11,6 +11,6 @@ module.exports = (pluginOptions) => {
 
 	return {
 		name: "rollup-plugin-reporter",
-		ongenerate: onGenerate(options)
+		onwrite: onGenerate(options)
 	};
 };
